@@ -7,13 +7,13 @@
 ## 包含组件说明
 `RCChatRoomSceneKit ` 内部包含两个自定义组件：
 - RCChatroomSceneMessageView消息列表view:
-![alt(height=300)](./imgs/chatroom_sceneview_0.PNG)
+<img src= "./imgs/chatroom_sceneview_0.PNG"  width="375" alt="RCChatRoomSceneKit">
 
 - RCChatroomSceneToolBar 底部功能栏view:
-![alt(height=300)](./imgs/chatroom_sceneview_1.PNG)
+<img src= "./imgs/chatroom_sceneview_1.PNG"  width="375" alt="RCChatRoomSceneKit">
 
 其中, RCChatroomSceneToolBar左边唤起输入按钮触发弹出InputBar
-![alt(height=300)](./imgs/chatroom_sceneview_2.PNG)
+<img src= "./imgs/chatroom_sceneview_2.PNG"  width="375" alt="RCChatRoomSceneKit">
 
 ## 可配置项说明
 `CoreKit` 基础库中RCCoreKitBundle 里面的`KitConfig.json` 文件，配置了所有的子Kit（RCChatRoomSceneKit，MusicControlKit等）的UI组件属性，**当前的RCChatRoomSceneKit相关的属性配置以及描述如下：**
