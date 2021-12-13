@@ -3,6 +3,14 @@
 ## 简介
 语聊房/视频直播房间场景 Kit，封装了消息列表、底部工具栏、输入框等常见的UI组件，并且可以通过json配置文件远端加载或者本地修改UI属性值。
 
+## 集成
+#### 使用 CocoaPods
+1. cd 至项目根目录
+2. 执行 pod init
+3. 执行 open -e Podfile
+4. 添加导入配置 pod 'RCChatroomSceneKit', '~> 0.0.1’ ，此处以集成 1.0.0 版本为例
+5. 执行 pod install
+6. 双击打开 .xcworkspace
 
 ## 包含组件说明
 `RCChatRoomSceneKit ` 内部包含两个自定义组件：

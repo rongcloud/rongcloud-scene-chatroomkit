@@ -18,7 +18,7 @@ Chatroom Scene Message Kit.
   s.homepage         = 'https://github.com/rongcloud'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zangqilong' => 'zangqilong1@rongcloud.cn' }
-  s.source           = { :git => 'https://github.com/rongcloud/rongcloud-livevideo-ios-sdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rongcloud/rongcloud-scene-chatroomkit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
