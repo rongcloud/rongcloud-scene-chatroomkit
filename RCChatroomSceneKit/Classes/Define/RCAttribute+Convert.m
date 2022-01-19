@@ -9,23 +9,29 @@
 
 @implementation RCCorner (Convert)
 - (UIBezierPath *)bezierPathWithRoundedRect:(CGRect)rect {
+    
+    CGFloat leftTop = self.value.topLeft.doubleValue;
+    CGFloat rightTop = self.value.topRight.doubleValue;
+    CGFloat leftBottom = self.value.bottomLeft.doubleValue;
+    CGFloat rightBottom = self.value.bottomRight.doubleValue;
+    
     UIRectCorner corner = 0;
     CGFloat radii = 0;
-    if (self.leftTop != 0) {
+    if (leftTop != 0) {
         corner |= UIRectCornerTopLeft;
-        radii = self.leftTop;
+        radii = leftTop;
     }
-    if (self.rightTop != 0) {
+    if (rightTop != 0) {
         corner |= UIRectCornerTopRight;
-        radii = self.rightTop;
+        radii = rightTop;
     }
-    if (self.leftBottom != 0) {
+    if (leftBottom != 0) {
         corner |= UIRectCornerBottomLeft;
-        radii = self.leftBottom;
+        radii = leftBottom;
     }
-    if (self.rightBottom != 0) {
+    if (rightBottom != 0) {
         corner |= UIRectCornerBottomRight;
-        radii = self.rightBottom;
+        radii = rightBottom;
     }
     if (self.radius != 0 && corner == 0) {
         corner |= UIRectCornerAllCorners;
@@ -42,31 +48,27 @@
 
 @implementation RCInsets (Convert)
 - (UIEdgeInsets)toUIEdgeInsets {
-    return UIEdgeInsetsMake(self.top, self.left, self.bottom, self.right);
+    return self.value ? self.value.insets : UIEdgeInsetsMake(0, 0, 0, 0);
 }
 @end
 
 
 @implementation RCColor (Convert)
 - (UIColor *)toUIColor {
-    CGFloat r = self.red   / 255.0;
-    CGFloat g = self.green / 255.0;
-    CGFloat b = self.blue  / 255.0;
-    CGFloat a = self.alpha;
-    return [UIColor colorWithRed:r green:g blue:b alpha:a];
+    return self.value ? self.value.color : [UIColor clearColor];
 }
 @end
 
 
 @implementation RCSize (Convert)
 - (CGSize)toCGSize {
-    return CGSizeMake(self.width, self.height);
+    return self.value ? self.value.size : CGSizeMake(0, 0);
 }
 @end
 
 
 
 
-@implementation RCAttribute (Convert)
+@implementation RCAttributes (Convert)
 
 @end

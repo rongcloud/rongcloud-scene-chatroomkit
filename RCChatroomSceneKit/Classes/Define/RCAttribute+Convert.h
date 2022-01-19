@@ -5,7 +5,7 @@
 //  Created by johankoi on 2021/12/9.
 //
 
-#import "RCAttribute.h"
+#import <RCCoreKit/RCCoreKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-@interface RCAttribute (Convert)
+@interface RCAttributes (Convert)
 
 @end
 
