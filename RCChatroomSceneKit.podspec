@@ -20,7 +20,7 @@ Chatroom Scene Message Kit.
   s.author           = { 'zangqilong' => 'zangqilong1@rongcloud.cn' }
   s.source           = { :git => 'https://github.com/rongcloud/rongcloud-scene-chatroomkit.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
   
   s.pod_target_xcconfig = {
