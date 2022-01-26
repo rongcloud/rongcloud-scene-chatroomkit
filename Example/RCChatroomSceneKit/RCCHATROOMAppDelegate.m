@@ -1,14 +1,14 @@
 //
-//  RCAppDelegate.m
-//  ChatRoomScene
+//  RCCHATROOMAppDelegate.m
+//  RCChatroomSceneKit
 //
-//  Created by a1252425 on 08/10/2021.
-//  Copyright (c) 2021 a1252425. All rights reserved.
+//  Created by xuefeng on 01/26/2022.
+//  Copyright (c) 2022 xuefeng. All rights reserved.
 //
 
-#import "RCAppDelegate.h"
+#import "RCCHATROOMAppDelegate.h"
 
-@implementation RCAppDelegate
+@implementation RCCHATROOMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

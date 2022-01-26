@@ -1,0 +1,13 @@
+//
+//  RCCHATROOMViewController.h
+//  RCChatroomSceneKit
+//
+//  Created by xuefeng on 01/26/2022.
+//  Copyright (c) 2022 xuefeng. All rights reserved.
+//
+
+@import UIKit;
+
+@interface RCCHATROOMViewController : UIViewController
+
+@end

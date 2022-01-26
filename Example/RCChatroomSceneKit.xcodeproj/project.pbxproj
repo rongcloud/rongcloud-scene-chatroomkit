@@ -12,8 +12,8 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* RCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RCViewController.m */; };
+		6003F59E195388D20070C39A /* RCCHATROOMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RCCHATROOMAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* RCCHATROOMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RCCHATROOMViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,8 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B14A77BFD23BB838BA0FE0E4 /* Pods_ChatRoomScene_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21AD821F565B6F54701143B5 /* Pods_ChatRoomScene_Example.framework */; };
-		F63A671CFD5E2A6E170B2161 /* Pods_ChatRoomScene_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD6D4115500E296151596F8 /* Pods_ChatRoomScene_Tests.framework */; };
+		A15F6901640D1EA128D57346 /* Pods_RCChatroomSceneKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036720956B6A7EE4680D2418 /* Pods_RCChatroomSceneKit_Example.framework */; };
+		C649A4BB937A56B4CBE42D99 /* Pods_RCChatroomSceneKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4B1D0F7AF8E04792A1ED18 /* Pods_RCChatroomSceneKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,41 +32,41 @@
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = ChatRoomScene;
+			remoteInfo = RCChatroomSceneKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21AD821F565B6F54701143B5 /* Pods_ChatRoomScene_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatRoomScene_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ACF22C73803A51104D9C408 /* Pods-ChatRoomScene_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatRoomScene_Example.release.xcconfig"; path = "Target Support Files/Pods-ChatRoomScene_Example/Pods-ChatRoomScene_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* ChatRoomScene_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatRoomScene_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036720956B6A7EE4680D2418 /* Pods_RCChatroomSceneKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCChatroomSceneKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D79B6CEF7D1C84EF5D9AD6 /* Pods-RCChatroomSceneKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCChatroomSceneKit_Example.release.xcconfig"; path = "Target Support Files/Pods-RCChatroomSceneKit_Example/Pods-RCChatroomSceneKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2F4B1D0F7AF8E04792A1ED18 /* Pods_RCChatroomSceneKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCChatroomSceneKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* RCChatroomSceneKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCChatroomSceneKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* ChatRoomScene-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatRoomScene-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* RCChatroomSceneKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RCChatroomSceneKit-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* ChatRoomScene-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatRoomScene-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* RCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* RCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* RCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* RCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCViewController.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* RCChatroomSceneKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCChatroomSceneKit-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* RCCHATROOMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCHATROOMAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* RCCHATROOMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCHATROOMAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* RCCHATROOMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCHATROOMViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* RCCHATROOMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCHATROOMViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* ChatRoomScene_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatRoomScene_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* RCChatroomSceneKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCChatroomSceneKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6CD6D4115500E296151596F8 /* Pods_ChatRoomScene_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatRoomScene_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		739DBA7E01EF3E74CEB8F346 /* Pods-ChatRoomScene_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatRoomScene_Example.debug.xcconfig"; path = "Target Support Files/Pods-ChatRoomScene_Example/Pods-ChatRoomScene_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7C241C4EA7E289E6D8150120 /* Pods-ChatRoomScene_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatRoomScene_Tests.release.xcconfig"; path = "Target Support Files/Pods-ChatRoomScene_Tests/Pods-ChatRoomScene_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		788B0CE8997B92741DFAC537 /* Pods-RCChatroomSceneKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCChatroomSceneKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-RCChatroomSceneKit_Example/Pods-RCChatroomSceneKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E7B6E67D2E4AAD36F052273 /* Pods-ChatRoomScene_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatRoomScene_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ChatRoomScene_Tests/Pods-ChatRoomScene_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9B02F7DB215FB582A60C4938 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A9D99F5A67A3DEED4CA0423A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CC52868FD08C8DC23749A3F5 /* ChatRoomScene.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ChatRoomScene.podspec; path = ../ChatRoomScene.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8812592BBD78E79E3FDB8B82 /* RCChatroomSceneKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RCChatroomSceneKit.podspec; path = ../RCChatroomSceneKit.podspec; sourceTree = "<group>"; };
+		A82A60FA89BBA76A0207D5E5 /* Pods-RCChatroomSceneKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCChatroomSceneKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RCChatroomSceneKit_Tests/Pods-RCChatroomSceneKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2FC62F807F5274CD0399E51 /* Pods-RCChatroomSceneKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCChatroomSceneKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-RCChatroomSceneKit_Tests/Pods-RCChatroomSceneKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E3AB9BC14ACE391E5F8C55E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F86780F4080B779B8A93E952 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B14A77BFD23BB838BA0FE0E4 /* Pods_ChatRoomScene_Example.framework in Frameworks */,
+				A15F6901640D1EA128D57346 /* Pods_RCChatroomSceneKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,41 +88,30 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F63A671CFD5E2A6E170B2161 /* Pods_ChatRoomScene_Tests.framework in Frameworks */,
+				C649A4BB937A56B4CBE42D99 /* Pods_RCChatroomSceneKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55007BCE3FB9C5DB04618DB9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				739DBA7E01EF3E74CEB8F346 /* Pods-ChatRoomScene_Example.debug.xcconfig */,
-				4ACF22C73803A51104D9C408 /* Pods-ChatRoomScene_Example.release.xcconfig */,
-				8E7B6E67D2E4AAD36F052273 /* Pods-ChatRoomScene_Tests.debug.xcconfig */,
-				7C241C4EA7E289E6D8150120 /* Pods-ChatRoomScene_Tests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for ChatRoomScene */,
+				6003F593195388D20070C39A /* Example for RCChatroomSceneKit */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				55007BCE3FB9C5DB04618DB9 /* Pods */,
+				F1CA3E6D9EB726DBCE50250C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* ChatRoomScene_Example.app */,
-				6003F5AE195388D20070C39A /* ChatRoomScene_Tests.xctest */,
+				6003F58A195388D20070C39A /* RCChatroomSceneKit_Example.app */,
+				6003F5AE195388D20070C39A /* RCChatroomSceneKit_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,35 +123,35 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				21AD821F565B6F54701143B5 /* Pods_ChatRoomScene_Example.framework */,
-				6CD6D4115500E296151596F8 /* Pods_ChatRoomScene_Tests.framework */,
+				036720956B6A7EE4680D2418 /* Pods_RCChatroomSceneKit_Example.framework */,
+				2F4B1D0F7AF8E04792A1ED18 /* Pods_RCChatroomSceneKit_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for ChatRoomScene */ = {
+		6003F593195388D20070C39A /* Example for RCChatroomSceneKit */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* RCAppDelegate.h */,
-				6003F59D195388D20070C39A /* RCAppDelegate.m */,
+				6003F59C195388D20070C39A /* RCCHATROOMAppDelegate.h */,
+				6003F59D195388D20070C39A /* RCCHATROOMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* RCViewController.h */,
-				6003F5A6195388D20070C39A /* RCViewController.m */,
+				6003F5A5195388D20070C39A /* RCCHATROOMViewController.h */,
+				6003F5A6195388D20070C39A /* RCCHATROOMViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for ChatRoomScene";
-			path = ChatRoomScene;
+			name = "Example for RCChatroomSceneKit";
+			path = RCChatroomSceneKit;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* ChatRoomScene-Info.plist */,
+				6003F595195388D20070C39A /* RCChatroomSceneKit-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* ChatRoomScene-Prefix.pch */,
+				6003F59B195388D20070C39A /* RCChatroomSceneKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,40 +178,51 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CC52868FD08C8DC23749A3F5 /* ChatRoomScene.podspec */,
-				A9D99F5A67A3DEED4CA0423A /* README.md */,
-				9B02F7DB215FB582A60C4938 /* LICENSE */,
+				8812592BBD78E79E3FDB8B82 /* RCChatroomSceneKit.podspec */,
+				E3AB9BC14ACE391E5F8C55E2 /* README.md */,
+				F86780F4080B779B8A93E952 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		F1CA3E6D9EB726DBCE50250C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				788B0CE8997B92741DFAC537 /* Pods-RCChatroomSceneKit_Example.debug.xcconfig */,
+				12D79B6CEF7D1C84EF5D9AD6 /* Pods-RCChatroomSceneKit_Example.release.xcconfig */,
+				A82A60FA89BBA76A0207D5E5 /* Pods-RCChatroomSceneKit_Tests.debug.xcconfig */,
+				E2FC62F807F5274CD0399E51 /* Pods-RCChatroomSceneKit_Tests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* ChatRoomScene_Example */ = {
+		6003F589195388D20070C39A /* RCChatroomSceneKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ChatRoomScene_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "RCChatroomSceneKit_Example" */;
 			buildPhases = (
-				A65E63191E532686744533F1 /* [CP] Check Pods Manifest.lock */,
+				B0625BBD56926BE350A319F4 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				88D6AA1F5839D28997B9A299 /* [CP] Embed Pods Frameworks */,
+				7DA7C794396A88743AEB7251 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ChatRoomScene_Example;
-			productName = ChatRoomScene;
-			productReference = 6003F58A195388D20070C39A /* ChatRoomScene_Example.app */;
+			name = RCChatroomSceneKit_Example;
+			productName = RCChatroomSceneKit;
+			productReference = 6003F58A195388D20070C39A /* RCChatroomSceneKit_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* ChatRoomScene_Tests */ = {
+		6003F5AD195388D20070C39A /* RCChatroomSceneKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ChatRoomScene_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "RCChatroomSceneKit_Tests" */;
 			buildPhases = (
-				35CEF20F27A9ED28643B1BD1 /* [CP] Check Pods Manifest.lock */,
+				F5711C7A68ED8F5DB577B9E2 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -232,9 +232,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = ChatRoomScene_Tests;
-			productName = ChatRoomSceneTests;
-			productReference = 6003F5AE195388D20070C39A /* ChatRoomScene_Tests.xctest */;
+			name = RCChatroomSceneKit_Tests;
+			productName = RCChatroomSceneKitTests;
+			productReference = 6003F5AE195388D20070C39A /* RCChatroomSceneKit_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -243,19 +243,19 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = RC;
+				CLASSPREFIX = RCCHATROOM;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = a1252425;
+				ORGANIZATIONNAME = xuefeng;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 69G8BQ9KQW;
+						DevelopmentTeam = 4BHYNKLL6J;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ChatRoomScene" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "RCChatroomSceneKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -269,8 +269,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* ChatRoomScene_Example */,
-				6003F5AD195388D20070C39A /* ChatRoomScene_Tests */,
+				6003F589195388D20070C39A /* RCChatroomSceneKit_Example */,
+				6003F5AD195388D20070C39A /* RCChatroomSceneKit_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,35 +298,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		35CEF20F27A9ED28643B1BD1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChatRoomScene_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		88D6AA1F5839D28997B9A299 /* [CP] Embed Pods Frameworks */ = {
+		7DA7C794396A88743AEB7251 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChatRoomScene_Example/Pods-ChatRoomScene_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RCChatroomSceneKit_Example/Pods-RCChatroomSceneKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FCFileManager/FCFileManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/RCChatroomSceneKit/RCChatroomSceneKit.framework",
@@ -345,10 +323,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatRoomScene_Example/Pods-ChatRoomScene_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCChatroomSceneKit_Example/Pods-RCChatroomSceneKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A65E63191E532686744533F1 /* [CP] Check Pods Manifest.lock */ = {
+		B0625BBD56926BE350A319F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,7 +341,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChatRoomScene_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RCChatroomSceneKit_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5711C7A68ED8F5DB577B9E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCChatroomSceneKit_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -377,8 +377,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* RCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* RCViewController.m in Sources */,
+				6003F59E195388D20070C39A /* RCCHATROOMAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* RCCHATROOMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,7 +396,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* ChatRoomScene_Example */;
+			target = 6003F589195388D20070C39A /* RCChatroomSceneKit_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -504,13 +504,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 739DBA7E01EF3E74CEB8F346 /* Pods-ChatRoomScene_Example.debug.xcconfig */;
+			baseConfigurationReference = 788B0CE8997B92741DFAC537 /* Pods-RCChatroomSceneKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 69G8BQ9KQW;
+				DEVELOPMENT_TEAM = 4BHYNKLL6J;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChatRoomScene/ChatRoomScene-Prefix.pch";
-				INFOPLIST_FILE = "ChatRoomScene/ChatRoomScene-Info.plist";
+				GCC_PREFIX_HEADER = "RCChatroomSceneKit/RCChatroomSceneKit-Prefix.pch";
+				INFOPLIST_FILE = "RCChatroomSceneKit/RCChatroomSceneKit-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,13 +522,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ACF22C73803A51104D9C408 /* Pods-ChatRoomScene_Example.release.xcconfig */;
+			baseConfigurationReference = 12D79B6CEF7D1C84EF5D9AD6 /* Pods-RCChatroomSceneKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 69G8BQ9KQW;
+				DEVELOPMENT_TEAM = 4BHYNKLL6J;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChatRoomScene/ChatRoomScene-Prefix.pch";
-				INFOPLIST_FILE = "ChatRoomScene/ChatRoomScene-Info.plist";
+				GCC_PREFIX_HEADER = "RCChatroomSceneKit/RCChatroomSceneKit-Prefix.pch";
+				INFOPLIST_FILE = "RCChatroomSceneKit/RCChatroomSceneKit-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,7 +540,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E7B6E67D2E4AAD36F052273 /* Pods-ChatRoomScene_Tests.debug.xcconfig */;
+			baseConfigurationReference = A82A60FA89BBA76A0207D5E5 /* Pods-RCChatroomSceneKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -556,14 +558,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatRoomScene_Example.app/ChatRoomScene_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCChatroomSceneKit_Example.app/RCChatroomSceneKit_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C241C4EA7E289E6D8150120 /* Pods-ChatRoomScene_Tests.release.xcconfig */;
+			baseConfigurationReference = E2FC62F807F5274CD0399E51 /* Pods-RCChatroomSceneKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -577,7 +579,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatRoomScene_Example.app/ChatRoomScene_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCChatroomSceneKit_Example.app/RCChatroomSceneKit_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -585,7 +587,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "ChatRoomScene" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "RCChatroomSceneKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -594,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ChatRoomScene_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "RCChatroomSceneKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -603,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ChatRoomScene_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "RCChatroomSceneKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
