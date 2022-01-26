@@ -67,15 +67,6 @@ static NSString *kRCCSMCellIdentifier = @"RCChatroomSceneMessageCell";
     self.message = message;
     self.delegate = delegate;
     
-
-    if ([message respondsToSelector:@selector(attributeString)]) {
-        NSMutableAttributedString *attStr = [[NSMutableAttributedString alloc] initWithAttributedString:[message attributeString]];
-        NSInteger delta = attStr.length - config.bubbleTextMaxLength;
-        if (delta > 0) {
-            [attStr deleteCharactersInRange:NSMakeRange(attStr.length - delta - 1, delta)];
-        }
-        self.contentLabel.attributedText = attStr;
-    }
     if ([message respondsToSelector:@selector(bubbleColor)]) {
         self.bubbleLayer.fillColor = [message bubbleColor].CGColor;
     } else {
@@ -88,6 +79,10 @@ static NSString *kRCCSMCellIdentifier = @"RCChatroomSceneMessageCell";
         self.contentLabel.textColor = config.defaultBubbleTextColor;
     }
     
+    if ([message respondsToSelector:@selector(attributeString)]) {
+        self.contentLabel.attributedText = [message attributeString];
+    }
+
     [self.containerView mas_makeConstraints:^(MASConstraintMaker *make) {
         UIEdgeInsets containerInsets = config.bubbleInsets;
         make.left.equalTo(self.contentView).with.inset(containerInsets.left);

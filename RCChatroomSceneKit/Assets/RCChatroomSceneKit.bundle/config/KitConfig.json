@@ -4,7 +4,7 @@
       "contentInsets": {
         "top": 0,
         "bottom": 0,
-        "left": 5,
+        "left": 10,
         "right": 0
       },
       "maxVisibleCount": 50,
@@ -15,26 +15,25 @@
         "alpha": 0.3
       },
       "bubbleInsets": {
-        "top": 4,
-        "bottom": 4,
+        "top": 8,
+        "bottom": 6.5,
         "left": 12,
         "right": 12
       },
       "defaultBubbleCorner": {
-        "radius": 10,
+        "radius": 0,
         "leftTop": 0,
-        "rightTop": 0,
-        "rightBottom": 0,
-        "leftBottom": 0,
+        "rightTop": 6,
+        "rightBottom": 6,
+        "leftBottom": 6
       },
       "defaultBubbleTextColor": {
-        "red": 255,
-        "green": 255,
+        "red": 106,
+        "green": 159,
         "blue": 255,
-        "alpha": 0.7
+        "alpha": 1
       },
       "bubbleSpace": 0,
-      "bubbleTextMaxLength": 50,
       "voiceIconColor": {
         "red": 255,
         "green": 255,
@@ -115,6 +114,7 @@
         "alpha": 1
       },
       "inputCorner": 8,
+      "inputTextMaxLength": 1000,
       "inputMinHeight": 36,
       "inputMaxHeight": 108,
       "inputTextSize": 14,

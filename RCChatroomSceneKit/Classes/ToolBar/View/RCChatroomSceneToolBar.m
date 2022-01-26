@@ -199,7 +199,13 @@
 }
 
 #pragma mark - RCChatroomAudioRecordViewDelegate -
-
+- (BOOL)audioRecordShouldBegin {
+    if ([self.delegate respondsToSelector:@selector(audioRecordShouldBegin)]) {
+        return [self.delegate audioRecordShouldBegin];
+    } else {
+        return YES;
+    }
+}
 - (void)audioRecordDidBegin {
     if ([self.delegate respondsToSelector:@selector(audioRecordDidBegin)]) {
         [self.delegate audioRecordDidBegin];

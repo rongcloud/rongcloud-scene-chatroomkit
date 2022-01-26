@@ -26,6 +26,7 @@
 @property (nonatomic, strong) UIButton *emojiButton;
 @property (nonatomic, strong) UIView *containerLineView;
 @property (nonatomic, strong) UIImageView *backgroundImageView;
+@property (nonatomic, assign) NSInteger hasInputLength;
 
 @end
 
@@ -226,6 +227,15 @@
 }
 
 - (void)sendButtonClicked {
+    if (self.textView.text.length >= _config.inputTextMaxLength) {
+        UIAlertController *alertVc = [UIAlertController alertControllerWithTitle:@"提示" message:[NSString stringWithFormat:@"文字超出限制%zd",_config.inputTextMaxLength] preferredStyle:UIAlertControllerStyleAlert];
+        [self presentViewController:alertVc animated:NO completion:^{
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [alertVc dismissViewControllerAnimated:NO completion:nil];
+            });
+        }];
+        return;
+    }
     if ([self.delegate respondsToSelector:@selector(inputViewDidClickSendButtonWith:)]) {
         [self.delegate inputViewDidClickSendButtonWith:self.textView.text];
     }

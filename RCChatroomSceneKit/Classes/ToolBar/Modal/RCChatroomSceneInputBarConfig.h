@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIColor *inputBackgroundColor;
 /// 输入框圆角
 @property (nonatomic, assign) CGFloat inputCorner;
+/// 输入最大文字长度
+@property (nonatomic, assign) NSInteger inputTextMaxLength;
 /// 输入框最小高度
 @property (nonatomic, assign) CGFloat inputMinHeight;
 /// 输入框最大高度，输入文字多行时的最大高度

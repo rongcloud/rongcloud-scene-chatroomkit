@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param text 文本内容
 - (void)textInputViewSendText:(NSString *)text;
 
+/// 判断是否能开启录音
+- (BOOL)audioRecordShouldBegin;
 /// 开始录音
 - (void)audioRecordDidBegin;
 /// 取消录音

@@ -16,17 +16,21 @@
 @implementation RCChatroomSceneToolBarConfig
 
 + (instancetype)default {
-    RCChatroomSceneToolBarConfig *config = [RCChatroomSceneConfigHelper configFromJsonForClass:[self class]];
-    if (config != nil) {
-        return config;
-    } else {
-        return [self creatPrimaryConfig];
-    }
+    return [self creatPrimaryConfig];
+//    RCChatroomSceneToolBarConfig *config = [RCChatroomSceneConfigHelper configFromJsonForClass:[self class]];
+//    if (config != nil) {
+//        return config;
+//    } else {
+//        return [self creatPrimaryConfig];
+//    }
 }
 
 + (RCChatroomSceneToolBarConfig *)creatPrimaryConfig {
     RCChatroomSceneToolBarConfig *config = [[RCChatroomSceneToolBarConfig alloc] init];
+    config.backgroundColor = UIColor.clearColor;
+    config.contentInsets = UIEdgeInsetsZero;
     config.chatButtonSize = CGSizeMake(105, 36);
+    config.chatButtonInsets = UIEdgeInsetsZero;
     config.chatButtonTitle = @"聊聊吧...";
     config.chatButtonTextSize = 12.0;
     config.chatButtonTextColor = [UIColor whiteColor];

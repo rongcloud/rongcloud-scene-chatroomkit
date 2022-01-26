@@ -12,27 +12,29 @@
 @implementation RCChatroomSceneInputBarConfig
 
 + (instancetype)default {
-    RCChatroomSceneInputBarConfig *config = [RCChatroomSceneConfigHelper configFromJsonForClass:[self class]];
-    if (config != nil) {
-        return config;
-    } else {
-        return [self creatPrimaryConfig];
-    }
+    return [self creatPrimaryConfig];
+//    RCChatroomSceneInputBarConfig *config = [RCChatroomSceneConfigHelper configFromJsonForClass:[self class]];
+//    if (config != nil) {
+//        return config;
+//    } else {
+//        return [self creatPrimaryConfig];
+//    }
 }
 
 + (RCChatroomSceneInputBarConfig *)creatPrimaryConfig {
     RCChatroomSceneInputBarConfig *config = [[RCChatroomSceneInputBarConfig alloc] init];
-    config.backgroundColor = [UIColor clearColor];
-    config.contentInsets = UIEdgeInsetsZero;
+    config.backgroundColor = [UIColor colorWithRed:86/255.0 green:68/255.0 blue:168/255.0 alpha:1];
+    config.contentInsets = UIEdgeInsetsMake(7, 12, 7, 12);
     config.inputBackgroundColor = UIColor.whiteColor;
     config.inputCorner = 6;
+    config.inputTextMaxLength = 1000;
     config.inputMinHeight = 34;
     config.inputMaxHeight = 70;
     config.inputTextSize = 14;
-    config.inputTextColor = UIColor.blackColor;
+    config.inputTextColor = [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1];
     config.inputHint = @"聊聊吧...";
-    config.inputHintColor = [UIColor colorWithWhite:0.8 alpha:1];
-    config.inputInsets = UIEdgeInsetsMake(0, 6, 0, 6);
+    config.inputHintColor = [UIColor colorWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1];
+    config.inputInsets = UIEdgeInsetsMake(5, 10, 5, 10);
     config.emojiEnable = YES;
     return config;
 }

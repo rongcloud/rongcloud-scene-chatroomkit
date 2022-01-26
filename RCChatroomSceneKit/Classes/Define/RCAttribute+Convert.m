@@ -38,7 +38,7 @@
         radii = self.radius;
     }
     UIBezierPath *cornerPath = nil;
-    if (self.radius != 0 && corner != 0) {
+    if (corner != 0 && radii != 0) {
         cornerPath = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corner cornerRadii:CGSizeMake(radii, radii)];
     }
     return cornerPath;

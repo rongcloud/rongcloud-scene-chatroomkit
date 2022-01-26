@@ -24,8 +24,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIColor *defaultBubbleTextColor;
 /// 消息气泡内部边距
 @property (nonatomic, assign) CGFloat bubbleSpace;
-/// 消息展示的最大文字长度
-@property (nonatomic, assign) NSInteger bubbleTextMaxLength;
 /// 语音消息图标及时长文字的颜色
 @property (nonatomic, strong) UIColor *voiceIconColor;
 

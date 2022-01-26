@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class RCChatroomSceneToolBarConfig;
 @protocol RCChatroomAudioRecordViewDelegate <NSObject>
 
+- (BOOL)audioRecordShouldBegin;
 - (void)audioRecordDidBegin;
 - (void)audioRecordDidCancel;
 - (void)audioRecordDidEnd:(NSData *)data time:(NSTimeInterval)time;

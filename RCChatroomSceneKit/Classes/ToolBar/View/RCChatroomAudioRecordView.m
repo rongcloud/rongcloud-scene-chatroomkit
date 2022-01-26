@@ -13,7 +13,7 @@
 #import "RCChatroomSceneToolBarConfig.h"
 #import "RCChatroomSceneRecorderViewController.h"
 
-@interface RCChatroomAudioRecordView ()
+@interface RCChatroomAudioRecordView () <UIGestureRecognizerDelegate>
 
 @property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, strong) CAGradientLayer *gradientLayer;
@@ -41,6 +41,7 @@
         }];
         
         UILongPressGestureRecognizer *gesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPressGestureHandler:)];
+        gesture.delegate = self;
         gesture.numberOfTouchesRequired = 1;
         gesture.minimumPressDuration = 0.2;
         [self addGestureRecognizer:gesture];
@@ -109,7 +110,12 @@
     }
     return [RCChatroomSceneAudioRecorder defaultRecorder];
 }
-
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+    if ([self.delegate respondsToSelector:@selector(audioRecordShouldBegin)]) {
+        return [self.delegate audioRecordShouldBegin];
+    }
+    return YES;
+}
 - (void)longPressGestureHandler:(UILongPressGestureRecognizer *)gesture {
     CGPoint point = [gesture locationInView:self];
     switch (gesture.state) {
