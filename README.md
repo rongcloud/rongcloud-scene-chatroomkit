@@ -1,8 +1,23 @@
-# 场景化聊天室
+<h1 align="center"> 场景化聊天室 </h>
 
-[![Version](https://img.shields.io/cocoapods/v/RCChatroomSceneKit.svg?style=flat)](https://github.com/rongcloud/rongcloud-scene-chatroomkit) 
- [![License](https://img.shields.io/cocoapods/l/RCChatroomSceneKit.svg?style=flat)](https://github.com/rongcloud/rongcloud-scene-chatroomkit) 
-[![Platform](https://img.shields.io/cocoapods/p/RCChatroomSceneKit.svg?style=flat)](https://github.com/rongcloud/rongcloud-scene-chatroomkit)  ![Swift](https://img.shields.io/badge/%20in-swift%205-orange.svg)
+<p align="center">
+<a href="https://github.com/rongcloud/rongcloud-scene-chatroomkit">
+<img src="https://img.shields.io/cocoapods/v/RCChatroomSceneKit.svg?style=flat">
+</a>
+
+<a href="https://github.com/rongcloud/rongcloud-scene-chatroomkit">
+<img src="https://img.shields.io/cocoapods/l/RCChatroomSceneKit.svg?style=flat">
+</a>
+
+<a href="https://github.com/rongcloud/rongcloud-scene-chatroomkit">
+<img src="https://img.shields.io/cocoapods/p/RCChatroomSceneKit.svg?style=flat">
+</a>
+
+<a href="https://github.com/rongcloud/rongcloud-scene-chatroomkit">
+<img src="https://img.shields.io/badge/%20in-swift%205-orange.svg">
+</a>
+
+</p>
 
 ## 简介
 场景话聊天室 Kit 是融云为开发者提供的开源项目，适用于语聊房、电台语音、视频直播等常见社交场景，Kit 封装聊天室消息列表、底部功能栏、输入框等常见的 UI 组件，并且，开发者可以通过 JSON 配置文件自定义 UI 属性，也可以通过远端动态配置。
